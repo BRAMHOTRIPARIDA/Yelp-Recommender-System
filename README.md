@@ -11,43 +11,43 @@ Test data - yelp_val.csv - user_id, business_id, stars(rating)
 
 business.json -
 ---------------------------------
-review_count 
-stars 
-RestaurantsPriceRange2
-Caters
-HasTV
-GoodForKids
-DogsAllowed
-RestaurantsDelivery
-BikeParking
-OutdoorSeating
-BusinessAcceptsCreditCards
-RestaurantsGoodForGroups
-RestaurantsReservations
-RestaurantsTakeOut
-bus_city(total count per city mapped to businesses)
-bus_state(total count per state mapped to businesses)
+review_count, 
+stars, 
+RestaurantsPriceRange2,
+Caters, 
+HasTV, 
+GoodForKids, 
+DogsAllowed, 
+RestaurantsDelivery, 
+BikeParking, 
+OutdoorSeating, 
+BusinessAcceptsCreditCards, 
+RestaurantsGoodForGroups, 
+RestaurantsReservations, 
+RestaurantsTakeOut, 
+bus_city(total count per city mapped to businesses), 
+bus_state(total count per state mapped to businesses), 
 bus_category(most appearing category of a business)
 
 user.json - 
 ---------------------------------
-review_count
-average_stars
-useful
-funny
-cool
-fans
-compliment_hot
-compliment_more
-compliment_profile
-compliment_cute
-compliment_list
-compliment_note
-compliment_plain
-compliment_cool
-compliment_funny
-compliment_writer
-compliment_photos
+review_count, 
+average_stars, 
+useful, 
+funny, 
+cool, 
+fans, 
+compliment_hot, 
+compliment_more, 
+compliment_profile, 
+compliment_cute, 
+compliment_list, 
+compliment_note, 
+compliment_plain, 
+compliment_cool, 
+compliment_funny, 
+compliment_writer, 
+compliment_photos, 
 user_frnds(count of users friends linked to same business_id)
 
 tip.json - 
@@ -64,7 +64,7 @@ checkin_count(count of checkins per business_id)
 
 review_train.json -
 ---------------------------------
-user_count(count of reviews of each user)
+user_count(count of reviews of each user), 
 bus_count(count of reviews of each business)
 
 Merged these features with the training and validation data sets and used XGBoost model with hyperparameter tuning to predict the ratings(stars) of users to businesses.
