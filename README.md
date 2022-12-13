@@ -69,4 +69,4 @@ bus_count(count of reviews of each business)
 
 Merged these features with the training and validation data sets and used XGBoost model with hyperparameter tuning to predict the ratings(stars) of users to businesses.
   
-RMSE : 0.974
+**RMSE : 0.974**
