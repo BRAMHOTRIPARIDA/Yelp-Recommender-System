@@ -1,6 +1,6 @@
 Yelp-Recommender-System
 ---------------------------------
-Objective of Project - To predict users preference for businesses using Yelp datasets and to build a recommendation system to predict the given (user, business) pairs by mining interesting and useful information using yelp datasets to support the recommendation system.
+Project Objective - To predict users preference for businesses using Yelp datasets and to build a recommendation system to predict the given (user, business) pairs by mining interesting and useful information using yelp datasets to support the recommendation system.
 
 Methods Explored and Implemented - Item based, Model based and Weighted Hybrid Collaborative Filtering Algorithms for User-Business Recommendations  
 Best Results - Model based Recommendation System
